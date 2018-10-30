@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "No Reddit Mobile Ads",
+  "version": "1.0",
+
+  "description": "Hide all of reddit's annoying SEE IN APP buttons",
+  "homepage_url": "https://github.com/Bullrich/Reddit-App-Ads-Blocker",
+
+  "icons": {
+    "48": "icons/blocker-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.reddit.com/*"],
+      "css": ["hideRedditAds.css"]
+    }
+  ]
+
+}
