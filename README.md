@@ -17,3 +17,9 @@ Don't you hate it when you want to watch reddit from your mobile browser (Firefo
 <img src="docs/on.png" alt="with" height="500"/>
 
 Well, this addon is a simple css extension which hides those buttons and interstitials.
+
+# Changelog
+Version | Changelog
+:---| :---
+1.1 | Updated to work with the full popup that appears when entering a sub
+1.0 | First release
