@@ -1,7 +1,14 @@
-.TopButton.pulse {
+/*
+  This is the blue "Use App" button in the top right of the page.
+*/
+.TopButton {
     display: none;
 }
 
+/*
+  This is the ad for the mobile app that appears in between items in the
+  content feed.
+*/
 .XPromoAdFeed.mSmall {
     display: none;
 }
@@ -10,10 +17,27 @@
     display: none;
 }
 
+/*
+  This is the blue rectangle with rounded corners saying "Open Reddit App" that
+  appears at the bottom of the screen and scrolls with the page.
+*/
 .XPromoPill {
     display: none;
 }
 
+/*
+  This is the "See Reddit in" banner/popup with a white background that asks
+  whether to open the app or continue in the browser (showing a Chrome icon).
+*/
 .XPromoPopup {
+    display: none;
+}
+
+/*
+  This is the black banner at the bottom of the page that advertises the
+  platform's app store. On Android it links to the Play Store and also
+  says "Get infinite scroll, chat, and more with our app."
+*/
+.xPromoAppStoreFooter {
     display: none;
 }

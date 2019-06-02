@@ -21,5 +21,6 @@ Well, this addon is a simple css extension which hides those buttons and interst
 # Changelog
 Version | Changelog
 :---| :---
+1.2 | Updated to add the new black banner at the bottom and fix the blue button at the top
 1.1 | Updated to work with the full popup that appears when entering a sub
 1.0 | First release
