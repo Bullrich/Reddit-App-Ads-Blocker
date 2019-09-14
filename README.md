@@ -1,26 +1,7 @@
-# REDDIT "Use Our App" spam blocker
+This small Firefox extension hides all the "use our app" promos and popups from Reddit's mobile site. It is intended for use with Firefox for Android.
 
-## An addon for Firefox
+Please note that this extension's mission is a moving target. When Reddit adds new app promos, it may take me a few days to add them to the block list.
 
-[Get it here](https://addons.mozilla.org/en-US/firefox/addon/no-reddit-mobile-ads/)
+In addition to hiding app promotions, this extension also hides the "Share" link that appears under every thumbnail (because I've only ever clicked those accidentally), shows the full comment thread instead of fading out after the first few comments, and removes the "top posts" from below the comment thread. In short, it aims to simplify the use of Reddit's mobile site and to remove barriers.
 
-Don't you hate it when you want to watch reddit from your mobile browser (Firefox) and you get all that spammy **THE BEST EXPERIENCE TO SEE OUR SITE IS WITH OUR MOBILE APP**
-
-### Real life example
-
-#### Without the plugin
-
-<img src="docs/off.png" alt="without" height="500"/>
-
-#### With the plugin
-
-<img src="docs/on.png" alt="with" height="500"/>
-
-Well, this addon is a simple css extension which hides those buttons and interstitials.
-
-# Changelog
-Version | Changelog
-:---| :---
-1.2 | Updated to add the new black banner at the bottom and fix the blue button at the top
-1.1 | Updated to work with the full popup that appears when entering a sub
-1.0 | First release
+Forked from [Javier Bullrich's "No Reddit Mobile Ads" add-on](https://github.com/Bullrich/Reddit-App-Ads-Blocker), available under the MPL 2.0.
