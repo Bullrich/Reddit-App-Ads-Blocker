@@ -16,7 +16,7 @@
   "homepage_url": "https://github.com/Bullrich/Reddit-App-Ads-Blocker",
 
   "icons": {
-    "48": "icons/blocker-48.png"
+    "256": "circle.svg"
   },
 
   "content_scripts": [
