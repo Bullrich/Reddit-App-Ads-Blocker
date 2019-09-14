@@ -1,10 +1,18 @@
 {
 
   "manifest_version": 2,
-  "name": "No Reddit Mobile Ads",
-  "version": "1.2",
+  "name": "No-nonsense Mobile Reddit",
+  "version": "1.0",
 
-  "description": "Hide all of reddit's annoying SEE IN APP buttons",
+  "description": "Removes all the 'see in app' ads from Reddit's webpage and makes other minor simplifications.",
+
+  "applications": {
+    "gecko": {
+      "id": "no-nonsense-mobile-reddit@julian-fietkau.de",
+      "strict_min_version": "66.0"
+    }
+  },
+
   "homepage_url": "https://github.com/Bullrich/Reddit-App-Ads-Blocker",
 
   "icons": {
@@ -14,7 +22,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.reddit.com/*"],
-      "css": ["hideRedditAds.css"]
+      "css": ["main.css"]
     }
   ]
 

@@ -1,0 +1,104 @@
+/*** App promo blocking ***/
+
+/*
+  2019-09: New app promo that is shown in-between items in the feed.
+*/
+.XPromoInFeed {
+  display: none;
+}
+
+/*
+  2019-09: "Get the full Reddit experience" banner at the bottom of a
+  comment thread.
+*/
+.xPromoChoiceBanner {
+  display: none;
+}
+
+/*
+  2019-09: This is the orange "Use App" button in the top right of the page.
+*/
+li.TopNav-promoButton {
+  display: none;
+}
+
+/*
+  2019-06: This is the black banner at the bottom of the page that advertises
+  the platform's app store. On Android it links to the Play Store and also
+  says "Get infinite scroll, chat, and more with our app."
+*/
+.xPromoAppStoreFooter {
+  display: none;
+}
+
+/*
+  This is the ad for the mobile app that appears in between items in the
+  content feed.
+*/
+.XPromoAdFeed.mSmall {
+  display: none;
+}
+
+/*
+  This is the blue rectangle with rounded corners saying "Open Reddit App" that
+  appears at the bottom of the screen and scrolls with the page.
+*/
+.XPromoPill {
+  display: none;
+}
+
+/*
+  This is the "See Reddit in" banner/popup with a white background that asks
+  whether to open the app or continue in the browser (showing a Chrome icon).
+*/
+.XPromoPopup {
+  display: none;
+}
+
+/*
+  Couldn't find this one during testing, it's possible that Reddit no longer
+  uses it.
+*/
+.DualPartInterstitialFooter {
+  display: none;
+}
+
+/*** Other features ***/
+
+/*
+  2019-09: Hide the chat button in the top bar (it is useless without the
+  app anyway)
+*/
+li > div.MobileButton {
+  display: none;
+}
+
+/*
+  2019-09: Always show full comments instead of hiding them behind "See
+  full discussion"
+*/
+.CommentTree__tree {
+  max-height: none !important;
+}
+.CommentTree__SeeFullBtn {
+  display: none;
+}
+.dayMode .CommentTree__tree.m-listing-below::after {
+  background: none !important;
+}
+
+/*
+  2019-09: Do not show "top posts" below comment thread.
+*/
+.TopPosts {
+  display: none;
+}
+
+/*
+  2019-09: Hide the "Share" link that appears in every feed item because
+  the popup is annoying
+*/
+span.Share {
+  display: none;
+}
+
