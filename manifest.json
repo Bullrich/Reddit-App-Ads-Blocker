@@ -14,7 +14,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.reddit.com/*"],
-      "css": ["hideRedditAds.css"]
+      "css": ["hideRedditAds.css"],
+      "all_frames": true
     }
   ]
 
