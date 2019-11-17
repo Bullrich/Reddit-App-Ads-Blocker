@@ -13,8 +13,13 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.reddit.com/*"],
-      "css": ["hideRedditAds.css"]
+      "matches": [
+        "*://*.reddit.com/*", 
+        "*://*.google.com/amp/s/amp.reddit.com/*", 
+        "*://amp-reddit-com.cdn.ampproject.org/v/s/amp.reddit.com/*"
+      ],
+      "css": ["hideRedditAds.css"],
+      "all_frames": true
     }
   ]
 
