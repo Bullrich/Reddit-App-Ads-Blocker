@@ -17,3 +17,7 @@
 .XPromoPopup {
     display: none;
 }
+
+div.AppSelectorModal__body.new_animation_blue_button[\[hidden\]="isUpsellHidden != 0"] {
+    display: none;
+}
